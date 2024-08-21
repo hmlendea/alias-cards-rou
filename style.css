@@ -8,13 +8,13 @@ body {
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: darkblue;
     font-family: Arial, sans-serif;
 }
 
 .card {
     position: absolute;
+    align-items: center;
     bottom: 12%;
     height: 85%;
     max-width: 90%;
@@ -33,6 +33,7 @@ body {
     text-align: left;
     font-size: 1.8em;
     height: 100%;
+    width: 100%;
 }
 
 .word-number {

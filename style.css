@@ -15,8 +15,8 @@ body {
 
 .card {
     position: absolute;
-    bottom: 8%;
-    height: 90%;
+    bottom: 12%;
+    height: 85%;
     max-width: 90%;
     aspect-ratio: 1/1.4;
     background-color: white;
@@ -66,6 +66,6 @@ body {
 }
 
 #next-button {
-    bottom: 20px;
-    right: 20px;
+    bottom: 1mm;
+    right: 1mm;
 }

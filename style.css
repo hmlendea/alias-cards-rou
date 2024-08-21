@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    position: absolute;
+    bottom: 8%;
+    height: 90%;
+    aspect-ratio: 1/1.4;
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.word {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-size: 1.8em;
+    height: 100%;
+}
+
+.word-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+    margin-left: 12px;
+    margin-right: 24px;
+    text-align: center;
+}
+
+.word-text {
+    flex-grow: 1;
+    text-align: left;
+    color: black;
+}
+
+.control-button {
+    position: fixed;
+    background-color: transparent;
+    color: white;
+    border: none;
+    display: flex;
+    font-size: 48px;
+}
+
+#next-button {
+    bottom: 20px;
+    right: 20px;
+}

@@ -5,7 +5,11 @@ function selectRandomCard() {
     const selectedCard = cards[randomKey];
 
     for (let word in selectedCard) {
-      $('#' + word + ' .word-text').text(selectedCard[word]);
+      const wordText = selectedCard[word];
+      const encodedQuery = encodeURIComponent('Definiție: ' + wordText);
+      const url = 'https://search.nucilandia.ro?q=' + encodedQuery;
+      $('#' + word + ' .word-text')
+        .html('<a href="' + url + '" target="_blank" rel="noopener noreferrer">' + $('<span>').text(wordText).html() + '</a>');
     }
 }
 

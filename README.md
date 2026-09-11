@@ -1,4 +1,4 @@
-[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/fund.html)
+[![Donate](https://img.shields.io/badge/-%E2%99%A5%20Donate-%23ff69b4)](https://hmlendea.go.ro/funding)
 [![Latest Release](https://img.shields.io/github/v/release/hmlendea/alias-cards-rou)](https://github.com/hmlendea/alias-cards-rou/releases/latest)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://gnu.org/licenses/gpl-3.0)
 
@@ -8,30 +8,30 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 
 **Live instance:** https://hmlendea.github.io/alias-cards-rou
 
-## Table of Contents
+## 📑 Table of Contents
 
-- [Overview](#overview)
+- [Capabilities](#capabilities)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
 - [Architecture](#architecture)
 - [Contributing](#contributing)
+- [Project Engagement](#project-engagement)
 - [License](#license)
 
-## Overview
+## ✨ Capabilities
 
-This is a single-page web application that randomly selects one of the pre-defined Alias Party cards and displays its 8 words. It is intended to be used alongside the physical Alias Party board game as a digital card deck, or as a standalone word game.
+- Display random Alias Party game cards with 8 words or phrases per card
+- Instantly look up any word with integrated [NuciSearch](https://search.nucilandia.ro) queries
+- Intelligently format searches: single words and infinitive phrases as dictionary lookups, multi-word expressions as definitions
+- Play alongside the physical board game or use as a standalone digital card game
 
-Words are clickable and open a [NuciSearch](https://search.nucilandia.ro) query in a new tab:
-- Single words and verb phrases starting with **"a"** (infinitive form) are searched as `[word] DEX`, pointing directly to dictionary results.
-- All other multi-word expressions are searched as `Definiție: [word]`.
-
-## Usage
+## 🚀 Usage
 
 Open `index.html` in any modern browser, or visit the [live instance](https://hmlendea.github.io/alias-cards-rou).
 
-Press the **⟳** button in the bottom-right corner to draw a new random card.
+Press the **⟳** button in the bottom-right corner to draw a new random card. Click any word to search its definition on NuciSearch.
 
-## Project Structure
+## 🗂️ Project Structure
 
 | File | Description |
 |------|-------------|
@@ -40,21 +40,30 @@ Press the **⟳** button in the bottom-right corner to draw a new random card.
 | `script.js` | Card selection logic and word link generation |
 | `cards.js` | Card data — all word sets defined as a JS object |
 
-## Architecture
+## 🏗️ Architecture
 
-For a comprehensive description of the system design, including component responsibilities, runtime flow, data architecture, external integrations, and cross-cutting concerns, see [ARCHITECTURE.md](./ARCHITECTURE.md).
+See the [architecture documentation](./ARCHITECTURE.md) for the system context, principal components, runtime flows, ownership boundaries, dependencies, constraints, and extension points.
 
-## Contributing
+## 🤝 Contributing
 
-Contributions are welcome.
+You are welcome to submit any suggestion, feedback, or modification to this project.
 
-Please:
+When doing so, please:
+- Maintain cross-platform compatibility
+- Submit focused pull requests that conform to the existing code style
+- Maintain your branch synchronised with `main`
+- Revise the documentation when functionality changes
+- Properly test all modifications, including edge cases and error conditions
 
-- keep the changes cross-platform
-- keep the pull requests focused and consistent with the existing style
-- update the documentation when the behaviour changes
+## 💝 Project Engagement
 
-## License
+Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/alias-cards-rou/issues)!
 
-Licensed under the GNU General Public License v3.0 or later.
-See [LICENSE](./LICENSE) for details.
+If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
+
+[![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 📄 License
+
+This project is being distributed under the `GNU General Public License v3.0 or later`.
+See [LICENSE](./LICENSE) for further information.

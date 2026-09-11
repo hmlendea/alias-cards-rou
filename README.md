@@ -13,6 +13,7 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 - [Overview](#overview)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
+- [Architecture](#architecture)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -38,6 +39,10 @@ Press the **⟳** button in the bottom-right corner to draw a new random card.
 | `style.css` | Visual styling for the card, words, and controls |
 | `script.js` | Card selection logic and word link generation |
 | `cards.js` | Card data — all word sets defined as a JS object |
+
+## Architecture
+
+For a comprehensive description of the system design, including component responsibilities, runtime flow, data architecture, external integrations, and cross-cutting concerns, see [ARCHITECTURE.md](./ARCHITECTURE.md).
 
 ## Contributing
 

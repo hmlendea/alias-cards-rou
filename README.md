@@ -16,6 +16,7 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 - [Architecture](#architecture)
 - [Contributing](#contributing)
 - [Project Engagement](#project-engagement)
+- [Security](#security)
 - [License](#license)
 
 ## ✨ Capabilities
@@ -62,6 +63,10 @@ Discovered a problem or have a suggestion? [Open an issue](https://github.com/hm
 If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
 
 [![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 🔒 Security
+
+See the [security policy](./SECURITY.md) for supported versions, vulnerability reporting, scope, disclosure policy, and safe harbour information.
 
 ## 📄 License
 

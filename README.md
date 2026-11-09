@@ -18,6 +18,7 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 - [Project Engagement](#project-engagement)
 - [Privacy and Data](#privacy-and-data)
 - [Security](#security)
+- [Code of Conduct](#code-of-conduct)
 - [License](#license)
 
 ## ✨ Capabilities
@@ -76,6 +77,10 @@ For the detailed description of how the application handles privacy and personal
 ## 🔒 Security
 
 See the [security policy](./SECURITY.md) for supported versions, vulnerability reporting, scope, disclosure policy, and safe harbour information.
+
+## 📜 Code of Conduct
+
+See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
 
 ## 📄 License
 

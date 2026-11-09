@@ -16,6 +16,7 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 - [Architecture](#architecture)
 - [Contributing](#contributing)
 - [Project Engagement](#project-engagement)
+- [Privacy and Data](#privacy-and-data)
 - [Security](#security)
 - [License](#license)
 
@@ -63,6 +64,12 @@ Discovered a problem or have a suggestion? [Open an issue](https://github.com/hm
 If you find this project useful, consider [funding it](https://hmlendea.go.ro/funding) or starring ⭐️ it on GitHub!
 
 [![Donate](https://raw.githubusercontent.com/hmlendea/readme-assets/master/donate_generic.png)](https://hmlendea.go.ro/funding)
+
+## 🛡️ Privacy and Data
+
+Alias Cards (ROU) does not collect, process, transmit, or persist personal data. The application is a static web application with no server-side processing, authentication, or personal data storage.
+
+For the detailed description of how the application handles privacy and personal data, see the [Privacy Statement](./PRIVACY.md).
 
 ## 🔒 Security
 

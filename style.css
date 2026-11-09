@@ -100,3 +100,24 @@ body {
 .github-link:hover {
     color: lightgrey;
 }
+
+.donate-link {
+    position: fixed;
+    bottom: 40px;
+    left: 1mm;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.donate-link-text {
+    font-size: 18px;
+}
+
+.donate-link:hover {
+    color: #ff6b6b;
+}

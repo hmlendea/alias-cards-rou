@@ -57,6 +57,8 @@ When doing so, please:
 - Revise the documentation when functionality changes
 - Properly test all modifications, including edge cases and error conditions
 
+See the [Contributing Guidelines](./CONTRIBUTING.md) for details on how to report issues, suggest enhancements, and submit changes.
+
 ## 💝 Project Engagement
 
 Discovered a problem or have a suggestion? [Open an issue](https://github.com/hmlendea/alias-cards-rou/issues)!

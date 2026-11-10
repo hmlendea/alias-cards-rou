@@ -19,6 +19,7 @@ A web app for displaying random Alias Party cards in Romanian. Each card shows 8
 - [Privacy and Data](#privacy-and-data)
 - [Security](#security)
 - [Code of Conduct](#code-of-conduct)
+- [Documentation](#documentation)
 - [License](#license)
 
 ## ✨ Capabilities
@@ -81,6 +82,31 @@ See the [security policy](./SECURITY.md) for supported versions, vulnerability r
 ## 📜 Code of Conduct
 
 See the [Code of Conduct](./CODE_OF_CONDUCT.md) for the standards of conduct expected in all project spaces.
+
+## 📚 Documentation
+
+Comprehensive technical documentation is available in the [`docs/`](./docs/) directory:
+
+| Document | Description |
+|----------|-------------|
+| [Documentation Index](./docs/INDEX.md) | Master navigation for all documentation |
+| [Architecture](./docs/architecture.md) | System architecture, components, data flows |
+| [Data Model](./docs/data-model.md) | Card structure, word types, query logic |
+| [Components](./docs/components/) | UI components, application services, integration models |
+| [Flows](./docs/flows/) | User and system flows |
+| [Behaviour](./docs/behaviour/) | Behaviour specifications |
+| [Dependencies](./docs/dependencies.md) | External dependencies |
+| [Build & Deployment](./docs/build-and-deployment.md) | GitHub Pages deployment |
+| [Testing](./docs/testing.md) | Test strategy |
+| [Security](./docs/security.md) | Security measures |
+| [Error Handling](./docs/error-handling.md) | Error scenarios |
+| [Invariants](./docs/invariants.md) | System invariants (82 properties) |
+| [Integrations](./docs/integrations.md) | External integrations |
+| [Change Guide](./docs/change-guide.md) | How to make changes safely |
+| [Troubleshooting](./docs/troubleshooting.md) | Common issues and solutions |
+| [FAQ](./docs/faq.md) | Frequently asked questions |
+| [Quick Start](./docs/quick-start.md) | Getting started guide |
+| [API Usage Examples](./docs/api-usage-examples.md) | Integration patterns |
 
 ## 📄 License
 
